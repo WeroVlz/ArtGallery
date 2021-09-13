@@ -1,0 +1,88 @@
+body{
+    background-image: url('https://goboxgear.com/wp-content/uploads/2014/02/White-Background-40-600x431.png');
+}
+
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+    text-decoration: bold;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+  }
+  
+  .nav-scroller .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .nav-scroller .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+  }
+
+  .p-2:hover{
+      text-decoration: underline;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  .container-carousel{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+  }
+
+.blockscr{
+    width: 125px;
+    height: 35px;
+    background-color: #eda5a9;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #cf9194;
+    position: relative;
+    bottom: -5px;
+    
+}
+
+input.form-control { 
+    width: 600px!important; 
+}
+
+.blog-footer {
+    padding: 1rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+    position: relative;
+    bottom: -20px;
+}
+
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
