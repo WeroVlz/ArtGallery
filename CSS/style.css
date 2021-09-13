@@ -86,3 +86,30 @@ input.form-control {
   .blog-footer p:last-child {
     margin-bottom: 0;
   }
+
+  .container-image {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+  
+    padding: 5px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  
+    margin-left: 35%;
+    margin-right: 30%;
+  }
+  
